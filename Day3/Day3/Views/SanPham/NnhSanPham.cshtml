@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "NnhSanPham";
+    var accountsSp = ViewBag.accounts as List<NnhSanPham>;
+
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Sidebar danh mục -->
+        <div class="col-md-3">
+            <div class="card" style="width: 100%;">
+                <div class="card-header bg-light text-dark font-weight-bold">
+					<h2>DANH MỤC</h2>
+				</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Quần Áo</li>
+                    <li class="list-group-item">Túi xách</li>
+                    <li class="list-group-item">Đồng hồ</li>
+                    <li class="list-group-item">Ti vi</li>
+                    <li class="list-group-item">Tủ lạnh</li>
+                    <li class="list-group-item">Máy bơm</li>
+                    <li class="list-group-item">Quạt điện</li>
+                    <li class="list-group-item">Sách English</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Danh sách sản phẩm -->
+        <div class="col-md-9">
+            <h1 class="text-center">Danh Sách Sản Phẩm</h1>
+            <div class="row">
+                @if (accountsSp != null)
+                {
+                    foreach (var item in accountsSp)
+                    {
+                        <div class="col-12 col-sm-6 col-md-4 mb-4">
+                            <div class="card h-100 shadow">
+                                <img src="@item.AvatarSp" class="card-img-top" alt="@item.NameSp">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">@item.NameSp</h5>
+                                    <p class="card-text">@item.BioSp</p>
+                                    <!-- Sử dụng asp-route-id để tạo nút đúng -->
+                                    <a asp-controller="SanPham" asp-action="NnhChiTietSanPham" asp-route-idsp="@item.IdSp" class="btn btn-success mt-auto">
+                                        Xem Chi Tiết
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                }
+                else
+                {
+                    <p class="text-danger">Không có dữ liệu sản phẩm để hiển thị.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

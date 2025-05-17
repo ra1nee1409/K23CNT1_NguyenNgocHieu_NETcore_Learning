@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "NnhChiTietSanPham";
+    var Ctsanphams = ViewBag.SanPham as Day3.Models.NnhSanPham;
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4 text-primary">Chi Tiết Sản Phẩm</h1>
+
+    @if (Ctsanphams != null)
+    {
+        <div class="row shadow-lg p-4 rounded bg-light">
+            <!-- Cột hình ảnh sản phẩm -->
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img src="@Ctsanphams.AvatarSp" class="img-fluid rounded border border-primary shadow-sm" alt="@Ctsanphams.NameSp">
+            </div>
+
+            <!-- Cột thông tin sản phẩm -->
+            <div class="col-md-8">
+                <h2 class="text-dark font-weight-bold mb-3">Tên sản phẩm: <span class="text-info">@Ctsanphams.NameSp</span></h2>
+                <h4 class="text-success mb-3">Giá: <span class="fw-bold">@Ctsanphams.Gia</span> VNĐ</h4>
+                <p><strong>Mô tả:</strong> @Ctsanphams.MoTa</p>
+                <p><strong>Trạng thái:</strong> <span class="badge bg-success text-light">@Ctsanphams.TrangThai</span></p>
+                <p><strong>Bio:</strong> @Ctsanphams.BioSp</p>
+                <p><strong>Ngày đăng:</strong> <span class="text-muted">@Ctsanphams.NgayDang.ToString("dd/MM/yyyy")</span></p>
+
+                <!-- Nút quay lại -->
+                <div class="mt-4">
+                    <a asp-controller="SanPham" asp-action="NnhSanPham" class="btn btn-primary btn-lg">
+                        <i class="bi bi-arrow-left-circle"></i> Quay lại danh sách
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="text-center text-danger mt-4">Không tìm thấy sản phẩm.</p>
+    }
+</div>
