@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|c:\\users\\sthie\\onedrive\\documents\\.net core\\k23cnt1_nguyenngochieu_netcore_learning\\day6\\day6\\views\\nnhhome\\nnhprivacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|solutionrelative:day6\\views\\nnhhome\\nnhprivacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|c:\\users\\sthie\\onedrive\\documents\\.net core\\k23cnt1_nguyenngochieu_netcore_learning\\day6\\day6\\views\\nnhhome\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|solutionrelative:day6\\views\\nnhhome\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|c:\\users\\sthie\\onedrive\\documents\\.net core\\k23cnt1_nguyenngochieu_netcore_learning\\day6\\day6\\controllers\\nnhemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|solutionrelative:day6\\controllers\\nnhemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|c:\\users\\sthie\\onedrive\\documents\\.net core\\k23cnt1_nguyenngochieu_netcore_learning\\day6\\day6\\views\\nnhemployee\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|solutionrelative:day6\\views\\nnhemployee\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|c:\\users\\sthie\\onedrive\\documents\\.net core\\k23cnt1_nguyenngochieu_netcore_learning\\day6\\day6\\views\\nnhemployee\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36202E3-C2F1-496B-9D6D-1E5274F410A5}|Day6\\Day6.csproj|solutionrelative:day6\\views\\nnhemployee\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NnhPrivacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhHome\\NnhPrivacy.cshtml",
+              "RelativeDocumentMoniker": "Day6\\Views\\NnhHome\\NnhPrivacy.cshtml",
+              "ToolTip": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhHome\\NnhPrivacy.cshtml*",
+              "RelativeToolTip": "Day6\\Views\\NnhHome\\NnhPrivacy.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T01:58:57.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NnhIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhHome\\NnhIndex.cshtml",
+              "RelativeDocumentMoniker": "Day6\\Views\\NnhHome\\NnhIndex.cshtml",
+              "ToolTip": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhHome\\NnhIndex.cshtml",
+              "RelativeToolTip": "Day6\\Views\\NnhHome\\NnhIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T01:58:57.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NnhCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhEmployee\\NnhCreate.cshtml",
+              "RelativeDocumentMoniker": "Day6\\Views\\NnhEmployee\\NnhCreate.cshtml",
+              "ToolTip": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhEmployee\\NnhCreate.cshtml",
+              "RelativeToolTip": "Day6\\Views\\NnhEmployee\\NnhCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T01:52:38.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NnhIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhEmployee\\NnhIndex.cshtml",
+              "RelativeDocumentMoniker": "Day6\\Views\\NnhEmployee\\NnhIndex.cshtml",
+              "ToolTip": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Views\\NnhEmployee\\NnhIndex.cshtml",
+              "RelativeToolTip": "Day6\\Views\\NnhEmployee\\NnhIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T01:52:37.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NnhEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Controllers\\NnhEmployeeController.cs",
+              "RelativeDocumentMoniker": "Day6\\Controllers\\NnhEmployeeController.cs",
+              "ToolTip": "C:\\Users\\sthie\\OneDrive\\Documents\\.NET Core\\K23CNT1_NguyenNgocHieu_NETcore_Learning\\Day6\\Day6\\Controllers\\NnhEmployeeController.cs",
+              "RelativeToolTip": "Day6\\Controllers\\NnhEmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:48:09.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

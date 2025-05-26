@@ -1,0 +1,31 @@
+﻿@model List<NnhEmployee>
+
+<table class="table table-striped table-hover text-center align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>Tên</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>SĐT</th>
+            <th>Lương</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.NnhName</td>
+                <td>@emp.NnhBirthDay.ToString("dd/MM/yyyy")</td>
+                <td>@emp.NnhEmail</td>
+                <td>@emp.NnhPhone</td>
+                <td>@emp.NnhSalary.ToString("N0") đ</td>
+                <td>
+                    <span class="badge @(emp.NnhStatus ? "bg-success" : "bg-secondary")">
+                        @(emp.NnhStatus ? "Active" : "Non-Active")
+                    </span>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
