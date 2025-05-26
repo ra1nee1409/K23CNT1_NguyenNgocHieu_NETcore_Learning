@@ -12,7 +12,7 @@ namespace Day6.Controllers
         new NnhEmployee { NnhId = 3, NnhName = "Lê Ngọc Sơn", NnhBirthDay = new DateTime(2004,3,3), NnhEmail = "a333@example.com", NnhPhone = "0123456789", NnhSalary = 538000, NnhStatus = true },
         new NnhEmployee { NnhId = 4, NnhName = "Trần Tiến Anh", NnhBirthDay = new DateTime(2005,12,12), NnhEmail = "a4444@example.com", NnhPhone = "0123456789", NnhSalary = 596000, NnhStatus = true },
         new NnhEmployee { NnhId = 5, NnhName = "Nguyễn Hoài Nam", NnhBirthDay = new DateTime(2001,1,12), NnhEmail = "a55555@example.com", NnhPhone = "0123456789", NnhSalary = 512000, NnhStatus = true },
-        new NnhEmployee { NnhId = 6, NnhName = "Nguyễn Quang Tâm", NnhBirthDay = new DateTime(2012,3,5), NnhEmail = "a666666@example.com", NnhPhone = "0123456789", NnhSalary = 533000, NnhStatus = true }
+        new NnhEmployee { NnhId = 6, NnhName = "Nguyễn Quang Tâm", NnhBirthDay = new DateTime(2012,3,5), NnhEmail = "a666666@example.com", NnhPhone = "0123456789", NnhSalary = 533000, NnhStatus = false }
 
     };
 
