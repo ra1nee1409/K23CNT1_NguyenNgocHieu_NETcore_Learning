@@ -1,0 +1,59 @@
+﻿@model Lab7.Models.NnhEmployee
+
+@{
+    ViewData["Title"] = "Sửa thông tin";
+}
+
+<h1>Sửa thông tin</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NnhEdit" asp-route-id="@Model.NnhId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NnhId" class="control-label"></label>
+                <input asp-for="NnhId" class="form-control" />
+                <span asp-validation-for="NnhId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NnhName" class="control-label"></label>
+                <input asp-for="NnhName" class="form-control" />
+                <span asp-validation-for="NnhName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NnhBirthday" class="control-label"></label>
+                <input asp-for="NnhBirthday" class="form-control" />
+                <span asp-validation-for="NnhBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NnhEmail" class="control-label"></label>
+                <input asp-for="NnhEmail" class="form-control" />
+                <span asp-validation-for="NnhEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NnhPhone" class="control-label"></label>
+                <input asp-for="NnhPhone" class="form-control" />
+                <span asp-validation-for="NnhPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NnhSalary" class="control-label"></label>
+                <input asp-for="NnhSalary" class="form-control" />
+                <span asp-validation-for="NnhSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NnhStatus" /> @Html.DisplayNameFor(model => model.NnhStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NnhIndex">Back to List</a>
+</div>
+
