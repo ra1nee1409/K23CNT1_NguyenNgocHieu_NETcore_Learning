@@ -1,0 +1,72 @@
+﻿@model IEnumerable<NnhLesson09.Models.OrderBook>
+
+@{
+    ViewData["Title"] = "Danh sách OrderBook";
+    Layout = "~/Views/Shared/Nnh_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceiveAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceivePhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderReceive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Note)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceiveAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceivePhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderReceive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Note)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Account.AccountId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-Nnhid="@item.OrderId">Edit</a> |
+                <a asp-action="Details" asp-route-Nnhid="@item.OrderId">Details</a> |
+                <a asp-action="Delete" asp-route-Nnhid="@item.OrderId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

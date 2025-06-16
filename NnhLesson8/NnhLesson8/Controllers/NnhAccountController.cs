@@ -102,7 +102,7 @@ namespace NnhLesson8.Controllers
             Account model = new Account();
             return View(model);
         }
-        [AcceptVerbs("GET", "POST")]
+        [AcceptVerbs("GET", "POST")]    
         public ActionResult VerifyPhone(string phone)
         {
             var isPhone = new Regex(@"^\(?([0-9]{3})\)?[-.]?([0-9]{3})[-.]?([0-9]{4})$");
@@ -116,11 +116,16 @@ namespace NnhLesson8.Controllers
         // POST: NnhAccountController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+
+
+        public ActionResult NnhCreate(NnhAccountController nnhModel)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                // Gán Id mới
+                nnhModel.Id = nnhAccounts.Any() ? nnhAccounts.Max(x => x.Id) + 1 : 1;
+                nnhAccounts.Add(nnhModel);
+                return RedirectToAction(nameof(NnhIndex));
             }
             catch
             {

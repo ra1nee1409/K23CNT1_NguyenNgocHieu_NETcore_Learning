@@ -1,0 +1,36 @@
+﻿@model IEnumerable<NnhLesson09.Models.Category>
+
+@{
+    ViewData["Title"] = "Danh sách loại sách";
+    Layout = "~/Views/Shared/Nnh_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+             <a asp-action="Edit" asp-route-NnhId="@item.CategoryId">Edit</a> 
+             <a asp-action="Details" asp-route-NnhId="@item.CategoryId">Details</a> 
+             <a asp-action="Delete" asp-route-NnhId="@item.CategoryId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
